@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://bigota.d.miui.com/V11.0.6.0.QDIMIXM/miui_JASMINEGlobal_V11.0.6.0.QDIMIXM_a6da9462a0_10.0.zip
-  ROM_NAME: General
+  ROM_URL: http://download.h2os.com/5T/MP/OnePlus5THydrogen_43_OTA_062_all_2005291737_04f9b97b5ae84d67.zip
+  ROM_NAME: OxygenOS
   TZ: Asia/Shanghai
 
 jobs:
