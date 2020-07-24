@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://download.h2os.com/5T/MP/OnePlus5THydrogen_43_OTA_062_all_2005291737_04f9b97b5ae84d67.zip
-  ROM_NAME: OxygenOS
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/16th_Plus/8.20.7.24/cn_daily/20200724105105/98aa103d/update.zip
+  ROM_NAME: Generic
   TZ: Asia/Shanghai
 
 jobs:
@@ -49,8 +49,8 @@ jobs:
               sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
               sudo bash setup.sh
-              sudo sed -i '7c AB=true' url2GSI.sh
-              sudo sed -i '8c Aonly=false' url2GSI.sh
+              sudo sed -i '7c AB=false' url2GSI.sh
+              sudo sed -i '8c Aonly=true' url2GSI.sh
        
        - name: Download Stock Rom & Generate GSI
          run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
