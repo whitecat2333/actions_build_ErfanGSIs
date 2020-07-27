@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://coloroswebsitefs.coloros.com/coloroswebsite-coloros-com/grs_20200716192221/PCHM10_11_OTA_0550_all_b4ZDE8RZUOPO.ozip
-  ROM_NAME: ColorOS
+  ROM_URL: https://download.c.realme.com/osupdate/RMX1851_11_OTA_1040_all_QhgqzRxRtiFW.ozip
+  ROM_NAME: Generic
   TZ: Asia/Shanghai
 
 jobs:
