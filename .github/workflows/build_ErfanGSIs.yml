@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://fsopen.coloros.com/3/oppowww/androidrom/paam00/PAAM00_11_OTA_0660_all_DxgkucfrubgQ.ozip
-  ROM_NAME: ColorOS
+  ROM_URL: http://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1728_A_1.21.5-update-full_1536200892.zip
+  ROM_NAME: Generic
   TZ: Asia/Shanghai
 
 jobs:
