@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1728_A_1.21.5-update-full_1536200892.zip
-  ROM_NAME: Generic
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/meizu17/8.1.1.2/cn/20200704154512/62ec39e8/update.zip
+  ROM_NAME: Flyme
   TZ: Asia/Shanghai
 
 jobs:
@@ -49,6 +49,8 @@ jobs:
               sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
               sudo bash setup.sh
+              sudo sed -i '7c AB=true' url2GSI.sh
+              sudo sed -i '8c Aonly=false' url2GSI.sh
        
        - name: Download Stock Rom & Generate GSI
          run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
