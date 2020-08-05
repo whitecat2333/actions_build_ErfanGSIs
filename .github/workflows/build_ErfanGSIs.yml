@@ -16,7 +16,7 @@ on:
 env:
   ROM_URL: https://download.meizu.com/Firmware/Flyme/16s/8.20.8.4/cn_daily/20200804002013/848f9296/update.zip
   ROM_NAME: Flyme
-  TZ: Asia/Shanghai
+  TZ: Asia/Shijiazhuang
 
 jobs:
   build:
@@ -60,7 +60,7 @@ jobs:
               mkdir final
               zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
-       - name: Upload GSI to BitSend
+       - name: Upload GSI to WenShuShu
          run: |
               curl -sL https://git.io/file-transfer | sh
               ./transfer bit final/GSI.zip
