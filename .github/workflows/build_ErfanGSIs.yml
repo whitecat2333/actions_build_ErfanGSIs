@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/16s/8.20.8.4/cn_daily/20200804002013/848f9296/update.zip
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/note9/8.20.9.30/cn_daily/20200930003719/61510e16/update.zip
   ROM_NAME: Flyme
   TZ: Asia/Shijiazhuang
 
@@ -60,10 +60,10 @@ jobs:
               mkdir final
               zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
-       - name: Upload GSI to WenShuShu
+       - name: Upload GSI to WeTransfer
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI.zip
+              ./transfer wet final/GSI.zip
 
          
             
