@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://romdownload.nubia.com/%E7%BA%A2%E9%AD%943/V3.34/NX629J-update.zip 
-  ROM_NAME: Generic
+  ROM_URL: http://bigota.d.miui.com/V12.0.1.0.QEDCNXM/miui_MIMAX3_V12.0.1.0.QEDCNXM_79de8df6ea_10.0.zip
+  ROM_NAME: MIUI
   TZ: Asia/Shijiazhuang
 
 jobs:
