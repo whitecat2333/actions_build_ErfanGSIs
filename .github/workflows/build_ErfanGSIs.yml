@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://download.h2os.com/5T/MP/OnePlus5THydrogen_43_OTA_064_all_2009080056_338a836209c54a7e.zip
-  ROM_NAME: OxygenOS
+  ROM_URL: https://bigota.d.miui.com/20.10.15/miui_TUCANA_20.10.15_4809b8ca95_11.0.zip
+  ROM_NAME: Generic
   TZ: Asia/Shijiazhuang
 
 jobs:
