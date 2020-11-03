@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/note9/8.20.10.27/cn_daily/20201027021751/21075842/update.zip
-  ROM_NAME: Generic
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/16xs/8.20.10.27/cn_daily/20201027003607/ee0cbdd0/update.zip
+  ROM_NAME: Flyme
   TZ: Asia/Shijiazhuang
 
 jobs:
