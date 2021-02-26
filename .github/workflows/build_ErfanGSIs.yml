@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/note9/8.20.11.10/cn_daily/20201110043136/ad9e0bc2/update.zip
-  ROM_NAME: Flyme
+  ROM_URL: http://download.h2os.com/OnePlus7/MP/OnePlus7Hydrogen_14.H.14_OTA_014_all_1908301703_8e29ef5336fa4eea.zip
+  ROM_NAME: OxygenOS
   TZ: Asia/Shijiazhuang
 
 jobs:
