@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: http://download.h2os.com/OnePlus6/MP/OnePlus6Hydrogen_22.K.48_OTA_048_all_2010222226_1b45b82013ae43a6.zip
-  ROM_NAME: OxygenOS
+  ROM_NAME: Oxygen
   TZ: Asia/Qinhuangdao
 
 jobs:
