@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.h2os.com/OnePlus7/MP/OnePlus7Hydrogen_14.H.31_OTA_031_all_2011091838_d218c01f9eb94c56.zip
-  ROM_NAME: OxygenOS
+  ROM_URL: https://bigota.d.miui.com/V11.0.3.0.PFJCNXM/miui_DAVINCI_V11.0.3.0.PFJCNXM_104ec46429_9.0.zip
+  ROM_NAME: MIUI
   TZ: Asia/Qinhuangdao
 
 jobs:
